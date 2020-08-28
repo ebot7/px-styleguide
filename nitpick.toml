@@ -9,7 +9,7 @@ disable = {"disable"=["invalid-name", "missing-module-docstring"]}
 
 ["setup.cfg".flake8]
 ignore = "D107,D104,D202,D203,D210,D401,Q000,C812,C815,E203"
-exclude = functions/test/*
+exclude = "functions/test/*"
 max-line-length = 80
 inline-quotes = "double"
 
@@ -22,4 +22,4 @@ combine_as_imports = true
 
 ["setup.cfg".mypy]
 python_version = 3.8
-ignore_missing_imports = True
+ignore_missing_imports = true
